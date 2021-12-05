@@ -48,7 +48,7 @@ birth_df %>%
 
 ```
 
-I quite interested in how baby's head circumference at birth and the birth sex are associated with their birth weight. Then I plot two graphs as above, from the first graph, it seems like there is a positive relationship between the head circumference and birth weight. From the second graph, although the two box plots are overlapped, the male's median is a little bit higher than the female's median. So I decide to fit a linear regression of birth weight on head circumference at birth and birth sex, and I assume there is no interactions. 
+I was interested in how baby's head circumference at birth and the birth sex are associated with their birth weight. Then I plot two graphs as above, from the first graph, it seems like there is a positive relationship between the head circumference and birth weight. From the second graph, although the two box plots are overlapped, the male's median is a little bit higher than the female's median. So I decide to fit a linear regression of birth weight on head circumference at birth and birth sex, and I assume there is no interactions. 
 
 ```{r}
 ## fit my model for birth weight
